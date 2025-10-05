@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="spynkos_morning_star"
+version="2.0"
+displayName="Spynko's Morning Star"
+displayURL="https://modrinth.com/mod/spynkos-morning-star"
+logoFile="logo.png"
+credits="Tired of dealing with phantoms in the late game? The Morning Star allows you to skip (almost) every night anywhere, without needing a bed. Crafted from a Nether Star, this magical item is the ultimate late-game convenience for every adventurer, making nights safe and effortless while keeping the challenge alive during early gameplay."
+authors="Spynko"
+description="Tired of phantom in late game? Now you can skip (almost) every night with this magic item!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.spynkos_morning_star]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.137,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.spynkos_morning_star]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

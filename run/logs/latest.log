@@ -1,0 +1,115 @@
+[25Sep2025 10:51:00.891] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.137, --assetIndex, 19, --assetsDir, C:\\Users\\ASUS\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.137, --fml.neoFormVersion, 20241203.161809]
+[25Sep2025 10:51:00.897] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[25Sep2025 10:51:00.900] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[25Sep2025 10:51:01.065] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[25Sep2025 10:51:01.171] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[25Sep2025 10:51:01.239] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[25Sep2025 10:51:01.373] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/ASUS/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
+[25Sep2025 10:51:01.624] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.1999, Intel
+[25Sep2025 10:51:02.005] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[25Sep2025 10:51:02.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.137 (neoforge)
+		Spynko's Morning Star 1.0.0 (spynkos_morning_star)
+[25Sep2025 10:51:02.981] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.137, --gameDir, ., --assetsDir, C:\Users\ASUS\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 19]
+[25Sep2025 10:51:04.831] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 504 milliseconds
+[25Sep2025 10:51:05.014] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[25Sep2025 10:51:11.013] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Sep2025 10:51:11.015] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Sep2025 10:51:11.018] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Sep2025 10:51:11.019] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Sep2025 10:51:11.020] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Sep2025 10:51:11.173] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ASUS/MCreatorWorkspaces/spynkos_morning_star/build/moddev/artifacts/neoforge-21.4.137.jar%23215!/assets/.mcassetsroot' uses unexpected schema
+[25Sep2025 10:51:11.173] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ASUS/MCreatorWorkspaces/spynkos_morning_star/build/moddev/artifacts/neoforge-21.4.137.jar%23215!/data/.mcassetsroot' uses unexpected schema
+[25Sep2025 10:51:11.250] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[25Sep2025 10:51:11.274] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[25Sep2025 10:51:11.433] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[25Sep2025 10:51:11.682] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.137, for MC 1.21.4
+[25Sep2025 10:51:12.741] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[25Sep2025 10:51:12.960] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/spynkos_morning_star
+[25Sep2025 10:51:13.075] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[25Sep2025 10:51:13.887] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[25Sep2025 10:51:16.215] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Cuffie (Realtek(R) Audio)
+[25Sep2025 10:51:16.217] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[25Sep2025 10:51:16.325] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[25Sep2025 10:51:16.731] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[25Sep2025 10:51:16.741] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[25Sep2025 10:51:16.756] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[25Sep2025 10:51:16.762] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[25Sep2025 10:51:16.845] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[25Sep2025 10:51:16.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[25Sep2025 10:51:16.854] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[25Sep2025 10:51:16.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[25Sep2025 10:51:16.874] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[25Sep2025 10:51:17.052] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[25Sep2025 10:51:17.158] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[25Sep2025 10:51:17.177] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[25Sep2025 10:51:17.191] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[25Sep2025 10:51:17.350] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[25Sep2025 10:51:26.095] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1371 recipes
+[25Sep2025 10:51:26.110] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1482 advancements
+[25Sep2025 10:51:26.114] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[25Sep2025 10:51:26.347] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
+[25Sep2025 10:51:26.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Sep2025 10:51:26.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Sep2025 10:51:26.881] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Sep2025 10:51:26.974] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[25Sep2025 10:51:26.979] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 278 ms
+[25Sep2025 10:51:27.086] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[25Sep2025 10:51:27.087] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[25Sep2025 10:51:27.976] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:db438bcc] logged in with entity id 1 at (0.8325556835672289, 56.0, -40.875957095417576)
+[25Sep2025 10:51:28.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[25Sep2025 10:51:28.251] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 15 advancements
+[25Sep2025 10:51:31.477] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[25Sep2025 10:51:31.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[25Sep2025 10:51:31.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[25Sep2025 10:51:31.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[25Sep2025 10:51:33.770] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Target Time: 13000.0
+[25Sep2025 10:51:33.771] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: La procedura è stata chiamata
+[25Sep2025 10:51:33.771] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: time add 13000t
+[25Sep2025 10:51:33.771] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Il commando dovrebbe essere stato fatto
+[25Sep2025 10:51:33.773] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Target Time: 13000.0
+[25Sep2025 10:51:33.773] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: La procedura è stata chiamata
+[25Sep2025 10:51:33.788] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: time add 13000t
+[25Sep2025 10:51:33.789] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Il commando dovrebbe essere stato fatto
+[25Sep2025 10:51:43.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 13000]
+[25Sep2025 10:51:43.572] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 13000
+[25Sep2025 10:51:44.767] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Target Time: 13000.0
+[25Sep2025 10:51:44.767] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: La procedura è stata chiamata
+[25Sep2025 10:51:44.767] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: time add 13000t
+[25Sep2025 10:51:44.768] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Il commando dovrebbe essere stato fatto
+[25Sep2025 10:51:44.768] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Target Time: 13000.0
+[25Sep2025 10:51:44.769] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: La procedura è stata chiamata
+[25Sep2025 10:51:44.769] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: time add 13000t
+[25Sep2025 10:51:44.769] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Il commando dovrebbe essere stato fatto
+[25Sep2025 10:51:55.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 16000]
+[25Sep2025 10:51:55.885] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 16000
+[25Sep2025 10:51:58.915] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Target Time: 40000.0
+[25Sep2025 10:51:58.915] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: La procedura è stata chiamata
+[25Sep2025 10:51:58.916] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: time add 40000t
+[25Sep2025 10:51:58.916] [Render thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Il commando dovrebbe essere stato fatto
+[25Sep2025 10:51:58.917] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Target Time: 40000.0
+[25Sep2025 10:51:58.917] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: La procedura è stata chiamata
+[25Sep2025 10:51:58.918] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: time add 40000t
+[25Sep2025 10:51:58.918] [Server thread/INFO] [net.mcreator.spynkosmorningstar.SpynkosMorningStarMod/]: Il commando dovrebbe essere stato fatto
+[25Sep2025 10:52:01.778] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[25Sep2025 10:52:01.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[25Sep2025 10:52:01.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[25Sep2025 10:52:01.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[25Sep2025 10:52:02.800] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[25Sep2025 10:52:02.831] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[25Sep2025 10:52:02.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[25Sep2025 10:52:02.875] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[25Sep2025 10:52:02.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Sep2025 10:52:02.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Sep2025 10:52:02.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Sep2025 10:52:03.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[25Sep2025 10:52:03.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[25Sep2025 10:52:03.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[25Sep2025 10:52:03.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[25Sep2025 10:52:03.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Sep2025 10:52:03.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Sep2025 10:52:03.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:clock",
+    "b": "minecraft:phantom_membrane",
+    "c": "minecraft:nether_star",
+    "d": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "spynkos_morning_star:morning_star",
+    "count": 1
+  }
+}

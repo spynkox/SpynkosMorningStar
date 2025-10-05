@@ -1,0 +1,9 @@
+{
+  "item.spynkos_morning_star.morning_star": "Stella del Mattino",
+  "advancements.dawncaller.descr": "Porta il sole sempre con te",
+  "advancements.dawncaller.title": "Invocatore dell\u0027Alba",
+  "text.morning_star_day": "Può essere usata solo di notte",
+  "text.morning_star_xp": "Richiede 10 livelli di esperienza",
+  "command.cooldown.successfull": "Cooldown impostato a",
+  "command.cooldown.disabled": "Cooldown disabilitato"
+}

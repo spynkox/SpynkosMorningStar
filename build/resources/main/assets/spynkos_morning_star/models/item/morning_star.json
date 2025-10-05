@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "spynkos_morning_star:item/morning_star"
+  }
+}

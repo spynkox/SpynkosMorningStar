@@ -1,0 +1,9 @@
+{
+  "item.spynkos_morning_star.morning_star": "Morning Star",
+  "advancements.dawncaller.descr": "Bring the sun with you wherever you go",
+  "advancements.dawncaller.title": "Dawncaller",
+  "text.morning_star_day": "You can only use it at night",
+  "text.morning_star_xp": "Requires 10 levels",
+  "command.cooldown.successfull": "Cooldown set to",
+  "command.cooldown.disabled": "Cooldown disabled "
+}

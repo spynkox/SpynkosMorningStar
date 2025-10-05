@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "command",
+  "definition": {
+    "commandName": "ms",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"328\" y=\"47\"><next><block type=\"literal\"><field name=\"name\">setCooldown</field><statement name=\"args\"><block type=\"number_min\"><field name=\"name\">cooldown</field><field name=\"min\">0</field><statement name=\"args\"><block type=\"old_command\"><field name=\"procedure\">Mscooldown</field></block></statement></block></statement></block></next></block></xml>"
+  }
+}

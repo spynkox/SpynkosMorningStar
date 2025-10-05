@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "spynkos_morning_star:morning_star"
+    },
+    "title": {
+      "translate": "advancements.dawncaller.title"
+    },
+    "description": {
+      "translate": "advancements.dawncaller.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dawncaller_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:nether/summon_wither"
+}

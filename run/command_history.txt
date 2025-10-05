@@ -1,0 +1,50 @@
+/xp set Dev -1
+/xp query Dev levels
+/kill
+/xp set Dev 25
+/xp add Dev 25
+/xp add Dev 250
+/time set night
+/ms setCooldown 10
+/ms setCooldown 0
+/time set night
+/xp add Dev 10 levels
+/ms setCooldown 100
+/time set night
+/xp add Dev 10 levels
+/ms setCooldown 100
+/ms setCooldown 0
+/time set night
+/ms setCooldown -1
+/ms setCooldown text
+/ms setCooldown 100
+/xp add Dev 10 levels
+/ms setCooldown 200
+/time set night
+/xp add Dev 10 levels
+/time set night
+/xp add Dev 10 levels
+/ms setCooldown 10
+/ms setCooldown 10.1
+/ms setCooldown 10.5
+/ms setCooldown 0
+/time set night
+/xp add Dev 10 levels
+/time set night
+/xp add Dev 100 levels
+/time set night
+/xp add Dev 100 levels
+/time set night
+/time add 1d
+/time set night
+/time add 1d
+/time add 1t
+/time add 1s
+/time add 100s
+/time add 200s
+/time set night
+/xp add Dev 100 levels
+/time set night
+/xp add Dev 100 levels
+/time set night
+/time add 14000t

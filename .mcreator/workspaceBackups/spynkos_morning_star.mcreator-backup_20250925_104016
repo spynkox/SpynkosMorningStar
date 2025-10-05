@@ -1,0 +1,216 @@
+{
+  "mod_elements": [
+    {
+      "name": "MorningStarRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_star_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/spynkosmorningstar/procedures/MorningStarRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MorningStar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_star",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spynkosmorningstar/item/MorningStarItem.java",
+          "src/main/resources/assets/spynkos_morning_star/models/item/morning_star.json",
+          "src/main/resources/assets/spynkos_morning_star/items/morning_star.json"
+        ]
+      }
+    },
+    {
+      "name": "MorningStarCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_star_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spynkos_morning_star/recipe/morning_star_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Dawncaller",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dawncaller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spynkos_morning_star/advancement/dawncaller.json"
+        ]
+      }
+    },
+    {
+      "name": "Ms",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spynkosmorningstar/command/MsCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Mscooldown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mscooldown",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/spynkosmorningstar/procedures/MscooldownProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NightCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/spynkosmorningstar/procedures/NightCheckProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "cooldown",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "daytime",
+      "type": "number",
+      "scope": "world",
+      "value": "1000.0"
+    },
+    {
+      "name": "time",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:MorningStar"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.spynkos_morning_star.morning_star": "Morning Star",
+      "advancements.dawncaller.descr": "Bring the sun with you wherever you go",
+      "advancements.dawncaller.title": "Dawncaller",
+      "text.morning_star_day": "You can only use it at night",
+      "text.morning_star_xp": "Requires 10 levels",
+      "command.cooldown.successfull": "Cooldown set to",
+      "command.cooldown.disabled": "Cooldown disabled "
+    },
+    "it_it": {
+      "item.spynkos_morning_star.morning_star": "Stella del Mattino",
+      "advancements.dawncaller.descr": "Porta il sole sempre con te",
+      "advancements.dawncaller.title": "Invocatore dell\u0027Alba",
+      "text.morning_star_day": "Può essere usata solo di notte",
+      "text.morning_star_xp": "Richiede 10 livelli di esperienza",
+      "command.cooldown.successfull": "Cooldown impostato a",
+      "command.cooldown.disabled": "Cooldown disabilitato"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/spynkosmorningstar/init/SpynkosMorningStarModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/spynkosmorningstar/network/SpynkosMorningStarModVariables.java",
+      "src/main/java/net/mcreator/spynkosmorningstar/SpynkosMorningStarMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/spynkosmorningstar/init/SpynkosMorningStarModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "spynkos_morning_star",
+    "modName": "Spynko\u0027s Morning Star",
+    "version": "1.0.0",
+    "description": "Adios Phantom",
+    "author": "Spynko",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "morning_star_pic",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.spynkosmorningstar"
+  },
+  "mcreatorVersion": 202500228610
+}
